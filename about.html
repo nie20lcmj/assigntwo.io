@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body style="background-color:black;">
+<title>About Us </title>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+
+.row: {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h1 style="border:5px solid white ;background-color:black ; padding: 20px; text-align: center; color: white"> All-Round Gym </h1>
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="rates.html">Rates</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Programmes</a>
+    <div class="dropdown-content">
+      <a href="equipment.html">Equipment</a>
+      <a href="training.html">Training</a>
+    </div>
+	<li><a href="feedback.html">Feedback</a></li>
+  </li>
+   <li style="float:right"><a href="about.html">About</a></li>
+</ul>
+
+<h1 style="text-align: center; color: red"> <u>About Us!</u> </h1>
+
+<div class="row">
+  <div class="column">
+    <h2 style="color: red">Locate Us</h2>
+    <p style="color: white"> Address: <br>
+	60 Jurong West Street 91, #01-08 <br>
+	Jurong West, Nanyang Community Club Building <br>
+	649040</p>
+	 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15954.891937501867!2d103.68350221478465!3d1.342593934332442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da0f99bc3a3f61%3A0x1300f7ac70f3ac12!2sSingapore%20649040!5e0!3m2!1sen!2ssg!4v1612884807100!5m2!1sen!2ssg" width="350" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    
+ </div>
+ 
+  <div class="column">
+    <h2 style="color: red">Contact Us!</h2>
+    <p style="color: white"> Call us @ 6262 7575<br>
+	Email us @ assistance@all-round.com <br>
+	For more enquires please do head down so we can assist you better!</p>
+  </div>
+  
+  <div class="column">
+    <h2 style="color: red">Stay Connected!</h2>
+    <p style="color: white"> Want to know what is going on all year round? Stay updated by following our social media! <br>
+	Help to Share, Like and Subscribe to keep it all-round!</p>
+	<img src="https://www.sagraphics.co.uk/wp-content/uploads/2016/10/social-media-icons.png" width="400" height="200">
+  </div>
+  </div>
+
+
+
+
+</body>
+<html> 
